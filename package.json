@@ -1,0 +1,26 @@
+{
+  "name": "cljs-now-skeleton",
+  "version": "0.0.1",
+  "description": "Skeleton for deploying clojurescript apps with now",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+      "url": "git://github.com/OffCourse/cljs-now.git"
+  },
+  "author": "yeehaa123",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/OffCourse/cljs-now"
+  },
+    "homepage": "https://github.com/OffCourse/cljs-now/issues",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node target/main.js",
+    "now": "./node_modules/now/build/bin/now"
+  },
+  "devDependencies": {
+    "now": "^0.18.1"
+  }
+}
